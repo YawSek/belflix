@@ -1,0 +1,101 @@
+p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-page{
+
+  display: inline-block;
+  width: 300px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6);
+  vertical-align: top;
+  margin-right: 22px;
+  margin-bottom: 10px;
+
+}
+
+.movie-picture{
+
+  width: 300px;
+  height: 300px;
+
+}
+
+.movie-picture:hover{
+  width: 320px;
+  height: 320px;
+  border: solid;
+  border-color: orange;
+}
+
+.movie-title{
+
+  font-size: 25px;
+  font-weight: bold;
+  padding-left: 5px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+
+}
+
+.movie-description{
+
+  padding-left: 5px;
+  margin-top: 5px;
+
+}
+
+.movie-year{
+  color: red;
+  font-size: small;
+}
+
+.movie-genre{
+  color: rgb(139, 139, 2);
+  border: solid;
+  border-color: rgb(214, 228, 17);
+  border-width: 1px;
+  border-style: groove;
+  border-radius: 8px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+button{
+ 
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 6px;
+  border: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+
+button:hover{
+  width: 100px;
+  height: 40px;
+  font-weight: bolder;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.8);
+}
+
+button:active{
+  color: rgb(1, 180, 1);
+  background-color: black;
+}
+
+.watch-now{
+
+  width: 90px;
+  height: 30px;
+  margin-right: 6px;
+  background-color: rgb(1, 180, 1);
+
+}
+
+.favorite{
+   height: 30px;
+   background-color: orange;
+  }
